@@ -2,7 +2,7 @@ const name = 'Wilhelm Henrique Zimmermann'
 
 console.log(`Hello! everyone my name is ${name} and I love to code and create a new projects`)
 
-print("I'm currently learning,React JS")
+print("I'm currently learning,Node JS")
  
  
 for(let i = 0 ; i < 4 ; i++){
