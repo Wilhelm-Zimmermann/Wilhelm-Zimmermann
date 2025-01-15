@@ -31,3 +31,10 @@
   <a href="https://www.linkedin.com/in/wilhelm-henrique-zimmermann-7053051b1" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  <a href="mailto:wihelmzimmermann8@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a> 
 </div>
+
+<div align="center">
+
+  ### Visitor Count
+  <img src="https://profile-counter.glitch.me/Wilhelm-Zimmermann/count.svg" />
+
+</div>
