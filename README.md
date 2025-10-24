@@ -1,8 +1,28 @@
 ## Hi there ✌️, my name is Wilhelm and I am a Full Stack developer
 <div align="center">
   <a href="https://github.com/Wilhelm-Zimmermann">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wilhelm-Zimmermann&layout=compact&langs_count=7&theme=midnight-purple"/>
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&theme=midnight-purple"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true" />
+  </picture>
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Wilhelm-Zimmermann&show_icons=true&theme=midnight-purple&layout=donut"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Wilhelm-Zimmermann&show_icons=true&layout=donut"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wilhelm-Zimmermann&show_icons=true&layout=donut" />
+  </picture>
 </div>
 <div style="display: inline_block"><br>
   <img align="center" alt="VSCode" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
