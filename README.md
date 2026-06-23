@@ -10,20 +10,13 @@
 
 ---
 
-## About me
+## About Me
 
-I'm a **Full Stack Developer** focused on building reliable, maintainable and scalable software using **C#/.NET**, **TypeScript**, **React** and **Next.js**.
+Full Stack Developer focused on building reliable, maintainable and scalable software. My primary stack is **C#/.NET** on the backend and **TypeScript + React/Next.js** on the frontend — and I care about how these pieces fit together, not just each one in isolation.
 
-I enjoy working across the stack, from backend services, APIs and database-driven systems to modern user interfaces with good UX. I also like understanding how software works under the hood, especially in areas such as architecture, performance, distributed systems and low-level programming.
+I'm interested in what happens under the hood: architecture decisions, performance tradeoffs, how distributed systems behave under load, and how hardware works at a fundamental level. That curiosity led me to start building a **Game Boy emulator in C**, which has been one of the most educational projects I've taken on.
 
-Currently, I'm improving my skills in:
-
-- Backend architecture with **.NET**
-- Modern frontend development with **React**, **Next.js** and **Tailwind CSS**
-- Database modeling, SQL optimization and performance
-- API design, integrations and messaging systems
-- Cloud fundamentals and software engineering best practices
-- Low-level programming, emulation and computer architecture
+Currently deepening my knowledge in **software architecture**, **cloud fundamentals**, **SQL optimization** and **low-level programming**.
 
 ---
 
@@ -53,7 +46,6 @@ Currently, I'm improving my skills in:
       </p>
     </td>
   </tr>
-
   <tr>
     <td align="center" width="50%">
       <h3>Frontend</h3>
@@ -65,16 +57,14 @@ Currently, I'm improving my skills in:
       </p>
     </td>
     <td align="center" width="50%">
-      <h3>Databases & Messaging</h3>
+      <h3>Databases</h3>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-7C3AED?style=for-the-badge&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/MongoDB-6D28D9?style=for-the-badge&logo=mongodb&logoColor=white" />
         <img src="https://img.shields.io/badge/MySQL-4C1D95?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/RabbitMQ-312E81?style=for-the-badge&logo=rabbitmq&logoColor=white" />
       </p>
     </td>
   </tr>
-
   <tr>
     <td align="center" width="50%">
       <h3>Tools & DevOps</h3>
@@ -83,17 +73,15 @@ Currently, I'm improving my skills in:
         <img src="https://img.shields.io/badge/Git-6D28D9?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Linux-312E81?style=for-the-badge&logo=linux&logoColor=white" />
-        <img src="https://img.shields.io/badge/VS%20Code-1E1B4B?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
       </p>
     </td>
     <td align="center" width="50%">
-      <h3>Learning & Exploring</h3>
+      <h3>Exploring</h3>
       <p>
         <img src="https://img.shields.io/badge/C-7C3AED?style=for-the-badge&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Game%20Boy%20Emulation-6D28D9?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Computer%20Architecture-4C1D95?style=for-the-badge&logo=gnubash&logoColor=white" />
-        <img src="https://img.shields.io/badge/Arduino-312E81?style=for-the-badge&logo=arduino&logoColor=white" />
-        <img src="https://img.shields.io/badge/Cloud%20Fundamentals-1E1B4B?style=for-the-badge&logo=icloud&logoColor=white" />
+        <img src="https://img.shields.io/badge/Emulation-6D28D9?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Arduino-4C1D95?style=for-the-badge&logo=arduino&logoColor=white" />
+        <img src="https://img.shields.io/badge/Cloud-312E81?style=for-the-badge&logo=icloud&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -103,43 +91,27 @@ Currently, I'm improving my skills in:
 
 ---
 
-## What I like to build
-
-I like working on software that solves real problems and is designed to be maintained over time.
-
-Some areas I enjoy building:
-
-- APIs and backend services
-- Full stack web applications
-- Internal tools and dashboards
-- Frontend interfaces with good user experience
-- Database-driven systems
-- Background jobs and automation
-- System integrations and message-based workflows
-- Low-level projects with C
-- Emulators and computer architecture experiments
-
----
-
 ## Featured Project
 
-### Game Boy Emulator in C
+### 🎮 Game Boy Emulator in C
 
-I'm currently building a **Game Boy emulator in C** as a learning project focused on understanding how computers and hardware systems work at a lower level.
+A hardware emulator built from scratch in C — not as a portfolio piece, but as a way to understand how computers actually work.
 
-This project helps me improve my knowledge of:
+Working on this project means dealing with real constraints: accurate CPU cycle timing, memory-mapped I/O, interrupt handling and a pixel-pushing graphics pipeline that follows the original DMG hardware behavior. Every bug is a lesson in how hardware and software meet.
 
-- CPU architecture
-- Memory mapping
-- Instructions and registers
-- Graphics pipeline
-- Hardware behavior
-- Low-level programming
-- Debugging complex systems
+**What it covers:**
+
+| Area | Details |
+|---|---|
+| CPU | Sharp LR35902 — Z80-like instruction set, registers, flags |
+| Memory | Full memory map, ROM/RAM banking, MBC controllers |
+| Graphics | PPU, tile rendering, OAM sprite handling, scanline timing |
+| Timing | Clock cycles, T-states, hardware-accurate behavior |
+| Debugging | Step-through execution, register inspection, memory viewer |
 
 <div align="center">
 
-[![View Project](https://img.shields.io/badge/View%20Project-GB_EMU-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wilhelm-Zimmermann/GB_EMU)
+[![View Project](https://img.shields.io/badge/View%20on%20GitHub-GB_EMU-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wilhelm-Zimmermann/GB_EMU)
 
 </div>
 
@@ -151,11 +123,11 @@ This project helps me improve my knowledge of:
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&theme=midnight-purple&hide_border=true&border_radius=12"
+    srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&theme=midnight-purple&hide_border=true&border_radius=12&include_all_commits=true&count_private=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&hide_border=true&border_radius=12"
+    srcset="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&count_private=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wilhelm-Zimmermann&show_icons=true&hide_border=true&border_radius=12" />
@@ -174,17 +146,6 @@ This project helps me improve my knowledge of:
 </picture>
 
 </div>
-
----
-
-## Skill Profile
-
-```txt
-Primary stack       C#/.NET · TypeScript · React · Next.js
-Strong experience   APIs · SQL · PostgreSQL · Backend integrations
-Working knowledge   Docker · RabbitMQ · MongoDB · Linux
-Currently studying  Cloud · Software architecture · C · Emulation
-```
 
 ---
 
